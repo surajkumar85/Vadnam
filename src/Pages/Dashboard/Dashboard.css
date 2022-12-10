@@ -1,0 +1,45 @@
+.dashboard {
+  padding: 2.4rem;
+  flex: 1;
+  overflow-y: scroll;
+}
+.dashboard::-webkit-scrollbar {
+  width: 7px;
+}
+.dashboard::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+.dashboard::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+.dashboard__heading {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 3.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+.projectFilter {
+  margin-bottom: 2.4rem;
+}
+.projectFilter nav {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.filter__btn {
+  padding: 0.4rem 1.2rem;
+  background: none;
+  border: 0.5px solid #ddd;
+  font-size: 1.4rem;
+  color: #555;
+  cursor: pointer;
+}
+.filter__btn.active {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.projectFilter nav p {
+  font-size: 1.8rem;
+  margin-right: 1.2rem;
+}

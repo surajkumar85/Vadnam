@@ -1,0 +1,33 @@
+.login {
+  width: 40rem;
+  box-shadow: 0 1.2rem 3.2rem var(--shadow-color);
+  padding: 3.2rem;
+  margin: 0 auto;
+  margin-top: 6.4rem;
+}
+.login__heading {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+.login__label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 1.6rem;
+}
+.login__input {
+  width: 100%;
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  outline: none;
+  border: 0.5px solid #555;
+  font-size: 1.8rem;
+}
+.login__formGroup {
+  margin-bottom: 2.4rem;
+}
+.login__subheading {
+  font-size: 1.4rem;
+}
+.login__form {
+  margin-bottom: 1.6rem;
+}

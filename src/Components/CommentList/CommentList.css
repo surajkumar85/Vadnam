@@ -1,0 +1,9 @@
+.commentList__commentUser {
+  padding: 1.6rem;
+  border: 0.5px solid #eee;
+  margin-bottom: 1.2rem;
+}
+.commentList__body {
+  font-size: 1.4rem;
+  padding: 1.2rem;
+}

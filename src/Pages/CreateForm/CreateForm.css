@@ -1,0 +1,23 @@
+.projectContainer {
+  flex: 1;
+  overflow-y: scroll;
+  padding: 1.8rem;
+  /* background-color: #eee; */
+}
+.projectContainer::-webkit-scrollbar {
+  width: 7px;
+}
+.projectContainer::-webkit-scrollbar-track {
+  background-color: #ddd;
+}
+.projectContainer::-webkit-scrollbar-thumb {
+  background-color: #999;
+}
+.projectForm {
+  max-width: 50rem;
+  padding: 3.2rem;
+}
+.projectForm input,
+.projectForm textarea {
+  border: 1px solid #ccc;
+}

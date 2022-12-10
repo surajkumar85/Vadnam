@@ -1,0 +1,21 @@
+.app {
+  height: 100vh;
+  display: flex;
+  align-items: stretch;
+}
+.app__main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.help__btn {
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.8rem;
+  border: none;
+}

@@ -1,0 +1,41 @@
+.aboutModel__background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: grid;
+  place-items: center;
+}
+.aboutModel__model {
+  width: 40rem;
+  background-color: #ddd;
+  padding: 2.4rem;
+}
+.aboutModel__title {
+  font-size: 2.4rem;
+  color: #555;
+  text-align: center;
+}
+.aboutModel__version {
+  font-size: 1.8rem;
+  color: #555;
+  text-align: center;
+}
+.aboutModel__author {
+  padding: 1.6rem;
+  font-size: 1.8rem;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+.aboutModel__upcomingVersion {
+  font-size: 1.6rem;
+}
+.aboutModel__listItems {
+  padding: 1.6rem;
+}
+.aboutModel__item {
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
